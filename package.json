@@ -1,0 +1,39 @@
+{
+  "name": "ble-glucose",
+  "version": "0.5.0",
+  "description": "Reads blood glucose values from Bluetooth LE enabled meters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --cache --format=node_modules/eslint-formatter-pretty ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diab24exa/ble-glucose.git"
+  },
+  "keywords": [
+    "glucose",
+    "bluetooth smart",
+    "bluetooth low energy",
+    "BLE"
+  ],
+  "author": "Exadoctor Dev",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/diab24exa/ble-glucose/issues"
+  },
+  "homepage": "https://github.com/diab24exa/ble-glucose#readme",
+  "devDependencies": {
+    "eslint": "6.6.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-formatter-pretty": "3.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-promise": "4.2.1"
+  },
+  "dependencies": {
+    "bows": "1.7.2",
+    "core-js": "2.6.12",
+    "lodash": "4.17.21",
+    "sundial": "1.7.0"
+  }
+}
